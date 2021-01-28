@@ -1,0 +1,163 @@
+/*
+Theme : Website Template
+Author: Web Team, DU
+Version: 1.0.0
+
+----------- Table of content ------------
+1. header section
+2. contact form section
+
+
+*/
+
+
+
+/* ================ header section start  ==================*/
+header.header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header .navbar img.logo{
+    height: 100px;
+}
+.header .navbar ul.navbar-nav li{
+    padding: 10px 25px;
+}
+.header .navbar ul.navbar-nav li a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color:#fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: all .3s;
+    border-bottom: 2px solid transparent;
+}
+.header .navbar ul.navbar-nav li:hover a,
+.header .navbar ul.navbar-nav li.active a{
+    color: #fff;
+    border-bottom: 2px solid yellow;
+}
+.header .banner .banner_text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header .banner .banner_text h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 60px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+.header .banner .banner_text p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 17px;
+}
+/* ================ header section end ==================*/
+
+
+/* ================ contact form section start ==================*/
+.contact_form{
+    padding: 80px 0;
+}
+.contact_form .contact_info{
+    padding: 70px;
+    border-radius: 30px;
+    background-color: #1b5ac4;
+    transition: all .3s;
+}
+.contact_form .contact_info:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 21px 20px -15px black;
+}
+.contact_form .contact_info h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 36px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.contact_form .contact_info p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 20px;
+    line-height: 26px;
+}
+.contact_form .contact_info .media .media-body{
+    padding-top: 5px;
+}
+.contact_form .contact_info .media i{
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    background-color: #fbc02d;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    color: #1b5ac4;
+    margin-right: 20px;
+}
+.contact_form .contact_info .media:not(:last-child){
+    margin-bottom: 30px;
+}
+.contact_form .contact_info .media p a,
+.contact_form .contact_info .media p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 0;
+    line-height: 26px;
+    text-decoration: none;
+    display: block;
+}
+.contact_form form.form-body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.contact_form form.form-body .form-group{
+    margin-bottom: 25px;
+}
+.contact_form form.form-body textarea,
+.contact_form form.form-body input{
+    border: 1px solid #1b5ac4;
+    border-radius: 10px;
+    padding: 25px 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+.contact_form form.form-body input::placeholder{
+    color: #3c3c3c;
+}
+.contact_form form.form-body textarea{
+    height: 180px;
+    padding: 15px;
+}
+.contact_form form.form-body button.submit_button{
+    background-color: #fbc02d;
+    color: #1b5ac4;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 15px 60px;
+    border-radius: 15px;
+    border: 0;
+    transition: all .3s;
+}
+.contact_form form.form-body button.submit_button:hover{
+    background-color: #1b5ac4;
+    color: #fbc02d;
+}
+/* ================ contact form section end ==================*/
